@@ -109,9 +109,9 @@ async function main() {
                 "Exit"
             ]
         }
-     ]);
+    ]);
      
-     switch (choice.choice) {
+    switch (choice.choice) {
         case "Add Student":
             let name_input = await inquirer.prompt([
                 {
